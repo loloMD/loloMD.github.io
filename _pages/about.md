@@ -2,25 +2,34 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: MILA Institute, Montreal, Machine Learning Engineer
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    AI-Generated (HuggingFace's kandinsky model) picture based on me.
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+A young **Machine Learning Engineer**, actually following a Master in Machine Learning at [MILA Institute](https://mila.quebec/en/professional-programs/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I have a strong interest in **Computer Vision**, **TinyML** from my past professional experiences, and in general, **Machine/Deep Learning** from my academic background.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+### call for collaboration
+
+:sparkles: I am looking for an **internship** for this **Summer 2024**, in the scope of my academic cursus, starting from **April 2024**, minimum duration of **4 months** :sparkles:
+
+***Currently based at Montreal, I am open to on-site or remote opportunities.***
+
+### cv
+
+* For a (In My Opinion) **better-prettified** view, go [here](https://registry.jsonresume.org/loloMD).
+
+* For a **PDF version**, go [here](https://registry.jsonresume.org/loloMD?theme=onepage-plus) just use the `Print to PDF` feature of your browser to convert the page to a PDF file (***every modern browser have this option***).
+
