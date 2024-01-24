@@ -21,7 +21,7 @@ A young **Machine Learning Engineer**, currently doing a **D.E.S.S in Machine Le
 
 From my previous industrial jobs (**2-year prof. experiences**), I have strong experiences in **Computer Vision** & **Deep Learning to the edge** and their respective related subfields.
 
-**Real-time Computer Vision applications, that need to run fast on low-power devices, are my favorite playgrounds**.
+**Real-time Deep Learning applications, that need to run fast on low-power devices, are my favorite playgrounds**.
 
 Nonetheless, from my **academic background**, I am also interested in **Multimodal algorithms (CV + NLP)** and **Explainability and Adversarial ML**.
 
