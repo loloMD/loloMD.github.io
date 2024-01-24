@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-09-11 00:00:00-0000
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+🥳🥳 **Officially graduated from [Polytech Nice Sophia](https://univ-cotedazur.fr/formation/offre-de-formation/ingenieur-mathematiques-appliquees-et-modelisation) - Applied Mathematics and Modeling major, Data Science minor** 🥳🥳

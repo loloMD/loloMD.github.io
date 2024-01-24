@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    AI-Generated (HuggingFace's kandinsky model) picture based on me.
+    <a href=https://huggingface.co/kandinsky-community/kandinsky-2-2-decoder><u>AI-Generated</u></a> picture based on me.
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -17,19 +17,16 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-A young **Machine Learning Engineer**, actually following a Master in Machine Learning at [MILA Institute](https://mila.quebec/en/professional-programs/).
+A young **Machine Learning Engineer**, currently doing a **D.E.S.S in Machine Learning** at [MILA Institute](https://mila.quebec/en/professional-programs/).
 
-I have a strong interest in **Computer Vision**, **TinyML** from my past professional experiences, and in general, **Machine/Deep Learning** from my academic background.
+From my previous industrial jobs (**2-year prof. experiences**), I have strong experiences in **Computer Vision** & **Deep Learning to the edge** and their respective related subfields.
 
-### call for collaboration
+**Real-time Computer Vision applications, that need to run fast on low-power devices, are my favorite playgrounds**.
 
-:sparkles: I am looking for an **internship** for this **Summer 2024**, in the scope of my academic cursus, starting from **April 2024**, minimum duration of **4 months** :sparkles:
+Nonetheless, from my **academic background**, I am also interested in **Multimodal algorithms (CV + NLP)** and **Explainability and Adversarial ML**.
 
-***Currently based at Montreal, I am open to on-site or remote opportunities.***
+## Call for Collaboration
 
-### cv
+:sparkles: I am looking for an **ML-related internship** for this **Summer 2024**, in the scope of my academic degree (**hence eligible for various fundings**), starting from **May 2024**, minimum duration of **4 months** :sparkles:
 
-* For a (In My Opinion) **better-prettified** view, go [here](https://registry.jsonresume.org/loloMD).
-
-* For a **PDF version**, go [here](https://registry.jsonresume.org/loloMD?theme=onepage-plus) just use the `Print to PDF` feature of your browser to convert the page to a PDF file (***every modern browser have this option***).
-
+***Currently based in Montreal, I am open to on-site or remote opportunities.***
