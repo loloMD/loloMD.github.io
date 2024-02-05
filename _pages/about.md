@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-A young **Machine Learning Engineer**, currently doing a **D.E.S.S in Machine Learning** at [MILA Institute](https://mila.quebec/en/professional-programs/).
+A young **Machine Learning Engineer**, currently doing a **Master in Machine Learning** at [MILA Institute](https://mila.quebec/en/professional-programs/).
 
 From my previous industrial jobs (**2-year prof. experiences**), I have strong experiences in **Computer Vision** & **Deep Learning to the edge** and their respective related subfields.
 
