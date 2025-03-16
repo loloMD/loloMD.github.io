@@ -9,19 +9,19 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (8.0.1)
+    activesupport (7.1.5.1)
       base64
       benchmark (>= 0.3)
       bigdecimal
-      concurrent-ruby (~> 1.0, >= 1.3.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
       connection_pool (>= 2.2.5)
       drb
       i18n (>= 1.6, < 2)
       logger (>= 1.4.2)
       minitest (>= 5.1)
+      mutex_m
       securerandom (>= 0.3)
-      tzinfo (~> 2.0, >= 2.0.5)
-      uri (>= 0.13.1)
+      tzinfo (~> 2.0)
     addressable (2.8.7)
       public_suffix (>= 2.0.2, < 7.0)
     base64 (0.2.0)
@@ -68,32 +68,11 @@ GEM
     feedjira (3.2.4)
       loofah (>= 2.3.1, < 3)
       sax-machine (>= 1.0, < 2)
-    ffi (1.17.1-aarch64-linux-gnu)
-    ffi (1.17.1-aarch64-linux-musl)
-    ffi (1.17.1-arm-linux-gnu)
-    ffi (1.17.1-arm-linux-musl)
-    ffi (1.17.1-arm64-darwin)
-    ffi (1.17.1-x86_64-darwin)
-    ffi (1.17.1-x86_64-linux-gnu)
-    ffi (1.17.1-x86_64-linux-musl)
+    ffi (1.17.1)
     forwardable (1.3.3)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
-    google-protobuf (4.30.0)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.30.0-aarch64-linux)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.30.0-arm64-darwin)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.30.0-x86_64-darwin)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.30.0-x86_64-linux)
-      bigdecimal
-      rake (>= 13)
+    google-protobuf (3.25.6-x86_64-linux)
     html-pipeline (2.14.3)
       activesupport (>= 2)
       nokogiri (>= 1.4)
@@ -147,8 +126,8 @@ GEM
     jekyll-paginate-v2 (3.0.0)
       jekyll (>= 3.0, < 5.0)
     jekyll-regex-replace (1.1.0)
-    jekyll-sass-converter (3.1.0)
-      sass-embedded (~> 1.75)
+    jekyll-sass-converter (3.0.0)
+      sass-embedded (~> 1.54)
     jekyll-scholar (7.1.3)
       bibtex-ruby (~> 6.0)
       citeproc-ruby (~> 1.0)
@@ -187,26 +166,12 @@ GEM
     matrix (0.4.2)
     mercenary (0.4.0)
     mini_mime (1.1.5)
-    minitest (5.25.4)
-    multi_xml (0.7.1)
-      bigdecimal (~> 3.1)
+    minitest (5.25.5)
+    multi_xml (0.6.0)
+    mutex_m (0.3.0)
     namae (1.2.0)
       racc (~> 1.7)
-    nokogiri (1.18.3-aarch64-linux-gnu)
-      racc (~> 1.4)
-    nokogiri (1.18.3-aarch64-linux-musl)
-      racc (~> 1.4)
-    nokogiri (1.18.3-arm-linux-gnu)
-      racc (~> 1.4)
-    nokogiri (1.18.3-arm-linux-musl)
-      racc (~> 1.4)
-    nokogiri (1.18.3-arm64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.18.3-x86_64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.18.3-x86_64-linux-gnu)
-      racc (~> 1.4)
-    nokogiri (1.18.3-x86_64-linux-musl)
+    nokogiri (1.17.2-x86_64-linux)
       racc (~> 1.4)
     observer (0.1.2)
     open-uri (0.5.0)
@@ -225,24 +190,11 @@ GEM
     rexml (3.4.1)
     rouge (4.5.1)
     safe_yaml (1.0.5)
-    sass-embedded (1.85.1-aarch64-linux-gnu)
-      google-protobuf (~> 4.29)
-    sass-embedded (1.85.1-aarch64-linux-musl)
-      google-protobuf (~> 4.29)
-    sass-embedded (1.85.1-arm-linux-gnueabihf)
-      google-protobuf (~> 4.29)
-    sass-embedded (1.85.1-arm-linux-musleabihf)
-      google-protobuf (~> 4.29)
-    sass-embedded (1.85.1-arm64-darwin)
-      google-protobuf (~> 4.29)
-    sass-embedded (1.85.1-x86_64-darwin)
-      google-protobuf (~> 4.29)
-    sass-embedded (1.85.1-x86_64-linux-gnu)
-      google-protobuf (~> 4.29)
-    sass-embedded (1.85.1-x86_64-linux-musl)
-      google-protobuf (~> 4.29)
+    sass-embedded (1.69.5)
+      google-protobuf (~> 3.23)
+      rake (>= 13.0.0)
     sax-machine (1.3.2)
-    securerandom (0.4.1)
+    securerandom (0.3.2)
     stringio (3.1.5)
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
@@ -259,18 +211,7 @@ GEM
     webrick (1.9.1)
 
 PLATFORMS
-  aarch64-linux
-  aarch64-linux-gnu
-  aarch64-linux-musl
-  arm-linux-gnu
-  arm-linux-gnueabihf
-  arm-linux-musl
-  arm-linux-musleabihf
-  arm64-darwin
-  x86_64-darwin
   x86_64-linux
-  x86_64-linux-gnu
-  x86_64-linux-musl
 
 DEPENDENCIES
   classifier-reborn
@@ -299,4 +240,4 @@ DEPENDENCIES
   ostruct
 
 BUNDLED WITH
-   2.6.5
+   2.3.5

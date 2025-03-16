@@ -1,4 +1,6 @@
-Welcome to [loloMD](https://github.com/lolomd)'s amazing ✨ [website](https://mdag.me)
+# Welcome to my personal sanctuary :shinto_shrine:
+
+**Welcome** to [loloMD](https://github.com/lolomd)'s amazing ✨ [website](https://mdag.me)
 
 > [!IMPORTANT]
 > All credits goes to [Maruan alshedivat](https://github.com/alshedivat)'s [alfolio](https://github.com/alshedivat/al-folio) repo
