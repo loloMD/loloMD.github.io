@@ -11,10 +11,18 @@ profile:
   more_info: >
     <a href=https://huggingface.co/kandinsky-community/kandinsky-2-2-decoder><u>AI-Generated</u></a> picture based on me.
 
-news: true  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 
 A young **Machine Learning Engineer**, currently doing a **Master in Machine Learning** at [MILA Institute](https://mila.quebec/en/professional-programs/).

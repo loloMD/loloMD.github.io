@@ -3,3 +3,5 @@ github_users:
 
 github_repos:
   - loloMD/nhl_analysis_project
+
+repo_description_lines_max: 2
