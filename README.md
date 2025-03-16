@@ -1,4 +1,22 @@
-[homepage website](https://mdag.me)
+Welcome to [loloMD](https://github.com/lolomd)'s amazing ✨ [website](https://mdag.me)
+
+> [!IMPORTANT]
+> All credits goes to [Maruan alshedivat](https://github.com/alshedivat)'s [alfolio](https://github.com/alshedivat/al-folio) repo
+
+## Customize the website
+
+Make sure you have installed:
+
+- `ruby` : `ruby -v`
+- `Gemfile` dependencies :
+
+    ```bash
+    bundle config set --local path .bundle_path/ # optional step but recommended to keep the Gem dependencies local
+    bundle config set --local bin .bundle_bin/ # optional step but recommended to keep the Gem binaries local
+    bundle install # run this at same level as Gemfile
+    ```
+
+Then, just run `./bin/entry_point.sh` (**it need `inotify-tools` package**).
 
 ## Getting started
 

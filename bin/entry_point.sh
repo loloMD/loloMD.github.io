@@ -3,6 +3,10 @@ set -euo pipefail
 
 echo "Entry point script running"
 
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+
+JEKYLL_BIN="$SCRIPT_DIR"/../.bundle_bin/jekyll
+
 CONFIG_FILE=_config.yml
 
 # Function to manage Gemfile.lock
@@ -21,7 +25,7 @@ manage_gemfile_lock() {
 
 start_jekyll() {
     manage_gemfile_lock
-    bundle exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace --force_polling &
+    bundle exec "$JEKYLL_BIN" serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace --force_polling &
 }
 
 start_jekyll

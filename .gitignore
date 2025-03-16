@@ -38,3 +38,5 @@ assets/libs/
 node_modules/
 vendor
 .idea
+.bundle_bin/
+.bundle_path/

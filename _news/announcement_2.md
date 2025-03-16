@@ -1,15 +1,22 @@
 ---
 layout: post
-title: 🥈 place in European AI Hackathon
+title:  2nd 🥈 place in an European AI Hackathon
 date: 2022-04-02 00:00:00-0000
 inline: false
 related_posts: false
 ---
+
+Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+
+---
+
 <div class="col-sm mt-3 mt-md-0">
-{% include figure.html path="assets/img/bonseyes-8806.webp" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.html path="assets/img/bonseyes-8806.webp" title="Bonseyes Logo" class="img-fluid rounded z-depth-1" width="30%" height="30%" %}
+{% include figure.html path="assets/img/bonsapp_certificate.jpeg" title="BonsAPP Certification" class="img-fluid rounded z-depth-1" width="30%" height="30%" %}
+
 </div>
 
-[BonsAPPs](https://bonsapps.eu/), the EU-funded project that supports small and medium-sized businesses, organized a first Open Call looking to select AI Talents, including researchers, PhDs/postdocs, engineers, and data scientists, that would apply the tools available on Bonseyes Marketplace to develop novel AI solutions - **in which [AzurIA](https://www.azuria.earth/) participated**.
+[BonsAPPs](https://bonsapps.eu/), the EU-funded project that supports small and medium-sized businesses, organized a first **Open Call looking to select AI Talents** - including researchers, PhDs/postdocs, engineers, and data scientists - that would use the tools available on **Bonseyes Marketplace** to develop novel AI solutions - **in which [AzurIA](https://www.azuria.earth/) participated**.
 
 When selected, each team **chose a use case (among a predefined set) and during 2 months, followed guided milestones**. Then, each team presented their results during a hackathon in Bologna, with the strongest 10 AI Talents selected to progress to Stage 2.
 
